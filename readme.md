@@ -1,18 +1,18 @@
 ## Análise e Desenvolvimento de Sistemas - Programação ||
 
 ### JAVA
- -- Operadores
- -- Estruturas de seleção
+ -- Operadores<br>
+ -- Estruturas de seleção<br>
  -- POO = [
         abstração,
         herença,
         polimorfismo,
         Encapsulamento
-    ]
+    ]<br>
     
-  -- Método main(){}
+  -- Método main(){}<br>
   
-  -- JVM, JRE, JDK, Compilador;
-  -- Desktop, Swing
+  -- JVM, JRE, JDK, Compilador<br>
+  -- Desktop, Swing<br>
   
   
