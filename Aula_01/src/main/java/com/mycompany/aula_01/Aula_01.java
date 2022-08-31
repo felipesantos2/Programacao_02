@@ -26,8 +26,8 @@ public class Aula_01 {
         n1 = Double.parseDouble(JOptionPane.showInputDialog("Digite O primeiro número:"));
         n2 = Double.parseDouble(JOptionPane.showInputDialog("Digite O segundo número:"));
         
-        JOptionPane.showMessageDialog(null,n1);
-        JOptionPane.showMessageDialog(null,n2);
+        //JOptionPane.showMessageDialog(null,n1);;
+        //JOptionPane.showMessageDialog(null,n2);
        
         
         
