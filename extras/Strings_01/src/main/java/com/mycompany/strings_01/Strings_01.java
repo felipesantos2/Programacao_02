@@ -56,11 +56,14 @@ public class Strings_01 {
 //        System.out.println(posicao);
         
     //inEmpty(); 
-    if(um.isEmpty()){
-        System.out.println("Sim");
-    } else {
-        System.out.println("Não");
-    }
+//        if(um.isEmpty()){
+//            System.out.println("Sim");
+//        } else {
+//            System.out.println("Não");
+//        }
+
+    
+    
     
     }
     
