@@ -10,7 +10,7 @@ public class Strings_01 {
         
         //charAt();substring();
         
-       String texto = "Frase de testes";
+       //String texto = "Frase de testes";
        
 //        for(int i = 0; i < texto.length(); i++) {
 //            char caracter = texto.charAt(i);
@@ -62,9 +62,18 @@ public class Strings_01 {
 //            System.out.println("Não");
 //        }
 
+    //toIpperCase(); toLowerCase(); 
+    //trim(); --> remove espações no inicio e no fim
     
+    String texto = "Frase de testes de string em java";
     
-    
+        if(texto.contains("Java")){
+            System.out.println("Contém - Verdade");
+        } else {
+           System.out.println("Não contém -  Falso");
+        }
+        System.out.println(texto.replace("a", "-"));
+
     }
     
     
