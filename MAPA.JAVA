@@ -1,4 +1,3 @@
-
 package com.mycompany.mapa;
 
 import javax.swing.JOptionPane;
