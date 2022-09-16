@@ -12,32 +12,15 @@ import javax.swing.JOptionPane;
  * @author Felipe
  */
 public class Aula_02 {
-
-    public static void main(String[] args) {
-            // metodos são executados
-            // fluxo principal
-        try{
-            String nome = JOptionPane.showInputDialog("Digite seu nome:");
-          
-            if( nome == "Felipe") {
-                System.out.println("O nome é Felipe");
-                System.out.println("---------------------------");
-            }
-            
-      
-        } catch(Exception e) {
-            
-            //tratandos as exceções
-            // evitar problema de uma forma diferente   
-            System.out.println( "Excerption ->  " +  e);
-            
-        } finally{
-            
-        System.out.println("Finally");
-        System.out.println("---------------------------");
-
-        
-        }
-        
-    }
+       int[] array;
+       array = new int[10];
+       
+       String saida = "Índice\tValor\n";
+   
+       for (int i = 0; i < array.length; i++) {
+           saida += i + "\t" + array[i] + "\n";
+       }
+   
+      System.out.println(saida);
+  
 }
