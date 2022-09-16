@@ -32,8 +32,8 @@ public class MAPA {
    
         if(a != 0){
             
-            //delta = (b * b) - 4 * a * c;
-            delta = calcularDelta(a, b, c);
+            delta = (b * b) - 4 * a * c;
+            //delta = calcularDelta(a, b, c);
             
             System.out.println("O Valor de Delta é: " +  delta);
             
