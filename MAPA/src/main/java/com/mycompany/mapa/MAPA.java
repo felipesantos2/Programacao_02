@@ -34,31 +34,23 @@ public class MAPA {
             
             delta = (b * b) - 4 * a * c;
             
-            System.out.println("O Valor de Delta é: " +  delta);
-            
-            /// usando Bhaskara
-            if( delta > 0){
-              
-                x1 = (-b + Math.sqrt(delta)) / (2 * a);
-                x2 = (-b - Math.sqrt(delta)) / (2 * a);
-            
-                System.out.println("O valor de X1 é: " + x1);
-                System.out.println("O valor de X1 é: " + x2);
+            //System.out.println("O Valor de Delta é: " +  delta);
          
+            /// usando Bhaskara
+                if( delta > 0){
+
+                    x1 = (-b + Math.sqrt(delta)) / (2 * a);
+                    x2 = (-b - Math.sqrt(delta)) / (2 * a);
+
+                    System.out.println("O valor de X1 é: " + x1);
+                    System.out.println("O valor de X1 é: " + x2);
+
+
+                }
                 
-            }
-            
-            if(delta == 0) {
-                System.out.println("Possui apenas um valor real");
-            }
+
         }
         
     } 
-     private static double calcularDelta(int a, int b, int c) throws IllegalArgumentException{
-        double delta = Math.pow(b,2) - 4*a*c;
-        if (delta<0) {
-            throw new IllegalArgumentException("Delta é: "+delta+"\nNão existem raízes reais.");
-        }
-        return delta;
-    }
+    
 }
